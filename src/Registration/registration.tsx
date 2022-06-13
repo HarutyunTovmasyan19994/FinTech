@@ -1,10 +1,20 @@
-import React,{FC} from 'react'
+import React,{FC,useState} from 'react'
 import {Box,Typography,TextField} from '@mui/material';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import './registration.css'
 
 const CreactAccount:FC = () =>{
+    const[focus,setFocus] = useState<boolean>(false)
+    const handleShowHide =():void => {
+        setFocus(prev=>!prev)
+    }
+    const handleType =() =>{
+        focus ? "text" : "password"
+    }
+    console.log(focus)
     return(
         <Box className="box">
            <Box className="left">
@@ -57,7 +67,11 @@ const CreactAccount:FC = () =>{
                     <span className="form">
                         <label >Password</label>
                        <p className='label'>
-                         <input type="password" className='input'/>
+                         <input type={focus ? "text" : "password"} className='input'/>
+                         <button className="showIcon" onClick={()=>handleShowHide()}>
+                            <VisibilityIcon/>
+                         </button>
+                        
                         </p> 
                     
                     </span>

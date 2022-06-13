@@ -140,4 +140,12 @@ color: #ffffff;
 }
 .label{
 margin:10px 0; 
+display: flex;
+}
+.showIcon{
+padding: 0.05em;
+background-color: transparent;
+border: none;
+cursor: pointer;
+margin-left: -2rem;
 }
