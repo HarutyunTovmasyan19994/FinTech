@@ -1,10 +1,10 @@
-import React from 'react';
+import React,{FC} from 'react';
+import CreateAccount from './Registration/registration'
 
-function App() {
+const  App:FC = () => {
   return (
     <div className="App">
-      FinTech
-      kl;k
+      <CreateAccount/>
     </div>
   );
 }
