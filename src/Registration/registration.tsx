@@ -36,33 +36,38 @@ const CreactAccount:FC = () =>{
            
             <Box component="form" className='forms'>
                     <span className="form">
-                    <label className="label">First Name</label>
-                    <p>
+                    <label>First Name</label>
+                    <p className='label'>
                          <input type="text" className='input'/> 
                     </p>
                     </span>
 
-                    <p className="form">
-                       <label className="label"> Last Name</label>
-                    <input type="text" className='input'/>
-                    
+                    <span className="form">
+                       <label > Last Name</label>
+                       <p className="label">
+                        <input type="text" className='input'/>
+                       </p>
+                    </span>
+                    <span className="form">
+                        <label >Email</label>
+                    <p className='label'>
+                         <input type="email" className='input'/>
                     </p>
-                    <p className="form">
-                        <label className='label'>Email</label>
-                    <input type="email" className='input'/>
+                    </span>
+                    <span className="form">
+                        <label >Password</label>
+                       <p className='label'>
+                         <input type="password" className='input'/>
+                        </p> 
                     
-                    </p>
-                    <p className="form">
-                        <label className='label'>Password</label>
-                    <input type="password" className='input'/>
-                    
-                    </p>
-                    <p className="form">
-                       <label className='label'> Re-enter Password</label>
-                    <input type="password" className="input"/>
-                    
-            dgdgdgdg
-                    </p>
+                    </span>
+                    <span className="form">
+                       <label > Re-enter Password</label>
+                       <p className='label'>
+                        <input type="password" className="input"/>
+                       </p>
+            
+                    </span>
             </Box>
 
             </Box>

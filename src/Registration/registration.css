@@ -114,14 +114,14 @@ color: #ffffff;
     color: #007bff;
 }
 .createAccount{
-    margin-top: 64px!important;
+    margin-top: 32px!important;
     font-family: "inter";
     font-weight: 500;
     font-style: normal;
     font-size: 40px;
     line-height: 40px;
     color: #ffffff;
-    margin-bottom: 32px;
+    margin-bottom: 32px!important;
 }
 .form{
     width: 520px!important;
@@ -139,6 +139,5 @@ color: #ffffff;
     border-radius: 12px;
 }
 .label{
-    margin-top: 18px!important;
-    margin-bottom: 16px;
+margin:10px 0; 
 }
