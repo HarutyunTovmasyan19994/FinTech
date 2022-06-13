@@ -41,7 +41,7 @@ const CreactAccount:FC = () =>{
                          <input type="text" className='input'/> 
                     </p>
                     </span>
-                    
+
                     <p className="form">
                        <label className="label"> Last Name</label>
                     <input type="text" className='input'/>
@@ -61,6 +61,7 @@ const CreactAccount:FC = () =>{
                        <label className='label'> Re-enter Password</label>
                     <input type="password" className="input"/>
                     
+            dgdgdgdg
                     </p>
             </Box>
 
