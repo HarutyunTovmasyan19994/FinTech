@@ -1,0 +1,1 @@
+export const SIN_UP = "https://fin-tech5.herokuapp.com/register"
