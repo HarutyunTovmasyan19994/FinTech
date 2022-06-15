@@ -72,24 +72,6 @@ const CreactAccount:FC = () =>{
     
     return(
         <Box className="box">
-           <Box className="left">
-            <Typography variant="body1" className="fintech">
-                FinTech
-            </Typography>
-            <Typography variant="body1" className="home">
-              Home
-            </Typography>
-            <Typography variant="body1" className='iconHome'>
-                <HomeOutlinedIcon className="homelineIcon"/>
-            </Typography>
-            <Typography variant="body1" className="profile">
-            Profile
-            </Typography>
-            <Typography variant="body1" className='profileIcon'>
-                <PermIdentityOutlinedIcon className="profilprofileIconelineIcon"/>
-            </Typography>
-           </Box>
-        
            <Box className="right">
             <Box className="welcome">
             <Typography variant="h4" className="welcometofintech">
@@ -145,6 +127,12 @@ const CreactAccount:FC = () =>{
                     <button className="btn">
                     Sign Up
                     </button>
+                    <span className='already'>
+                      Already have an account?
+                      <span className='login'>
+                      Log In
+                      </span>
+                    </span>
                     </form>
             </Box>
 

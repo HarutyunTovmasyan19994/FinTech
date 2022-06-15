@@ -6,87 +6,14 @@
     color: white;
 
 }
-.left{
-    position: relative;
-    height: 100%;
-}
+
 .right{
     position: absolute;
     left: 241px;
     top: 0;
     height: 100vh;
 }
-.fintech{
-position: absolute;
-left: 40px;
-top:48px;
-font-family: "Inter";
-font-style: normal;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0.05em;
-color: #ffffff;
-}
-.home{
-    width: 46px;
-    height: 16px;
-    position: absolute;
-    left: 80px;
-    top: 150px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    color: #87888C;
-    cursor: pointer;
-}
-.iconHome{
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 40px;
-    top: 152px;
-    cursor: pointer;
-}
-.homelineIcon{
-    width: 20px;
-    height: 19px;
-    position: absolute;
-    left: 8.33%;
-    right: 8.33%;
-    bottom: 12.5%;
-    color: #87888C;
-}
-.profile{
-    width: 49px;
-    height: 16px;
-    position: absolute;
-    left: 80px;
-    top: 348px;
-    font-family: "Inter";
-    font-style:normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    color: #f7f7f7;
-    cursor: pointer;
-}
-.profileIcon{
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 42px;
-    top: 344px;
-    cursor: pointer;
-}
-.profilprofileIconelineIcon{
-    position: absolute;
-    left: 12.5%;
-    right: 12.5%;
-    top: 8.3%;
-    bottom: 8.3%;
-}
+
 .welcome{
     display: flex;
     flex-direction: column;
@@ -154,6 +81,7 @@ margin-top: 3px;
     background-color: #007bff;
     border: none;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 12px;
     font-family: "Inter";
     font-style: normal;
@@ -167,4 +95,26 @@ margin-top: 3px;
 .errorPassword{
     margin-bottom: 10px;
     color: red;
+}
+
+.already{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+margin: 15px;
+
+color: #FFFFFF;
+
+}
+.login{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+margin-left: 10px;
+color: #007BFF;
+cursor: pointer;
 }
