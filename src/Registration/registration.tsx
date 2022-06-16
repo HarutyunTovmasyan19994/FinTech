@@ -4,8 +4,8 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
+import {Link} from 'react-router-dom'
 import './registration.css'
-import { FeaturedVideo } from '@mui/icons-material';
 import axios from 'axios';
 
 interface iUser {
@@ -129,13 +129,15 @@ const CreactAccount:FC = () =>{
                     </button>
                     <span className='already'>
                       Already have an account?
-                      <span className='login'>
-                      Log In
+                      <span className='logintext'>
+                        <Link to= "/login">
+                        Log In
+                        </Link>
+                      
                       </span>
                     </span>
                     </form>
             </Box>
-
             </Box>
             </Box>
         </Box>
