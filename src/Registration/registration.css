@@ -7,12 +7,7 @@
 
 }
 
-.right{
-    position: absolute;
-    left: 241px;
-    top: 0;
-    height: 100vh;
-}
+
 
 .welcome{
     display: flex;
@@ -91,6 +86,7 @@ margin-top: 3px;
     color: #ffffff;
     text-transform: uppercase;
     cursor: pointer;
+
 }
 .errorPassword{
     margin-bottom: 10px;

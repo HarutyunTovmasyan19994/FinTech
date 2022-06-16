@@ -1,0 +1,100 @@
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1199px;
+    height: 100vh;
+    background-color: #212121;
+    border-left: 3px solid #414141;
+    box-shadow: -3px 0px 60px
+                rgba(44, 45, 47, 0.25);
+    border-radius: 30px;
+    box-sizing: border-box;
+
+}
+.wlecomeback{
+    width: 755px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 244px;
+}
+.welBackFin{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #ffffff;
+}
+.wlecomeback span{
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #007BFF;
+}
+.loginword{
+    font-family: "Inter";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: #f7f7f7;
+    margin: 64px 0;
+}
+
+.formLogin{
+    width: 520px!important;
+    height: 48px!important;
+}
+.inputEmail{
+    width: 520px;
+    margin: 10px 0;
+    padding: 8px 16px;
+    background-color:transparent;
+    color: #ffffff!important;
+    border: 1px solid #424242;
+    border-radius: 12px;
+}
+.inputPassword{
+    width: 520px;
+    margin: 10px 0;
+    padding: 8px 16px;
+    background-color:transparent;
+    color: #ffffff!important;
+    border: 1px solid #424242;
+    border-radius: 12px;
+}
+.formEmail label{
+font-family: "Inper";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+color: #f7f7f7;
+}
+.formPassword label{
+    font-family: "Inper";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #f7f7f7;
+}
+.btnLog{
+    width: 556px;
+    padding: 6px 12px;
+    background-color: #007bff;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+    

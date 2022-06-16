@@ -1,9 +1,9 @@
 import React,{FC} from 'react';
 import {Box,Typography} from '@mui/material';
-import { FeaturedVideo } from '@mui/icons-material';
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import CreateAccount from './Registration/registration'
+import LogIn from './LogIn/LogIn'
 import './App.css'
 
 const  App:FC = () => {
@@ -26,7 +26,12 @@ const  App:FC = () => {
                 <PermIdentityOutlinedIcon className="profilprofileIconelineIcon"/>
             </Typography>
            </Box>
-      <CreateAccount/>
+
+           <div className="rightSection">
+           {/*<CreateAccount/>*/}
+            <LogIn/>
+           </div>
+     
     </div>
   );
 }
